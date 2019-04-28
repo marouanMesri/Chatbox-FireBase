@@ -20,6 +20,9 @@ const isLocalhost = Boolean(
     )
 )
 
+
+
+
 export function register (config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
@@ -53,7 +56,7 @@ export function register (config) {
     })
   }
 }
-
+// apiKey: "AIzaSyBKyv9GpMzlvWLaEocwJDoH4FQxgInLQos",
 function registerValidSW (swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
